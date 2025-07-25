@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# 🗺️ react-navermap-self-practice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 이 레포는 **React.js** 프론트엔드 프레임워크에서 **Naver Map API**가 정상적으로 호출되고 동작하는지 확인하기 위한 **실습용 테스트 프로젝트**입니다.
 
-## Available Scripts
+본 테스트는 추후 구름톤 단국대학교(천안캠퍼스) 프로젝트인 [청년팜 프로젝트]([https://github.com/9oormthonUnivDKUC/FE-farm]) 프론트엔드에 Naver Map 기능을 적용하기 전에 테스트용으로 구성된 레포지토리입니다.
+(실제론 Kakao Map API가 사용되었음)
+---
 
-In the project directory, you can run:
+## 🛠️ 기술 스택
 
-### `npm start`
+- **Frontend Framework**: React.js (Vite 또는 CRA 기반)
+- **지도 서비스**: Naver Maps JavaScript API v3
+- **언어**: JavaScript / JSX
+- **API 키**: 환경변수 파일(.env)에 보관 (커밋 제외)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 프로젝트 구조 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```plaintext
+.
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   └── components/NaverMap.js
+├── .env               # (숨김 처리됨)
+├── .gitignore
+├── package.json
+└── README.md
